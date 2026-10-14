@@ -112,19 +112,20 @@ section {
 }
 
 footer {
-  background-color: #041F43;
-  color: white;
-  text-align: center;
-  padding: 30px 20px;
+    background-color: #041F43;
+    color: white;
+    text-align: center;
 }
 
 footer a {
-  color: white;
-  margin: 0 10px;
+    color: white;
+    text-decoration: underline;
 }
 
+footer a:hover {
+    color: #cbd5e1;
+}
 
-/* A2: Responsive layout improvements */
 
 html {
     scroll-behavior: smooth;
