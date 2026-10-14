@@ -1,0 +1,124 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+้html {
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: #041F43;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+  width: 100%;
+  font-family: 'Gill Sans', sans-serif;
+}
+
+body {
+  font-family: 'Gill Sans', sans-serif;
+}
+
+ืnav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 25px 25px;
+  font-weight: bold;
+  display: inline-block;
+  transition: transform 0.3s ease, color 0.3s ease;
+  font-family: 'Gill Sans', sans-serif;
+}
+
+nav a:hover {
+  color: aliceblue;
+  transform: translateY(-5px);
+}
+
+#about {
+  gap: 30px;
+  align-items: flex-start;
+  text-align: center;
+}
+
+#about img {
+  max-width: 300px;
+  border-radius: 10px;
+}
+.about-content {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 900px;
+  margin: 0% auto;
+}
+section {
+  padding: 40px 20px;
+}
+
+#built {
+  text-align: center;
+}
+
+#built article {
+  display: inline-block;
+  width: 280px;
+  margin: 15px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  vertical-align: top;
+  text-align: left;
+}
+
+#built img {
+  width: 100%;
+  border-radius: 8px;
+}
+#how {
+  text-align: center;
+}
+
+#how ol {
+  list-style: none;
+  text-align: center;
+}
+
+#how li {
+  display: inline-block;
+  width: 300px;
+  margin: 15px;
+  vertical-align: top;
+}
+
+#reflection {
+  text-align: center;
+}
+
+#reflection article {
+  display: inline-block;
+  width: 280px;
+  margin: 15px;
+  padding: 15px;
+  vertical-align: top;
+  text-align: left;
+}
+
+footer {
+  background-color: #041F43;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+footer a {
+  color: white;
+  margin: 0 10px;
+}
